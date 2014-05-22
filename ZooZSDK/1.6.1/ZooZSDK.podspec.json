@@ -10,7 +10,7 @@
   "platforms": {
     "ios": 6.0
   },
-  "preserve_paths": "ZooZSDK/ZooZSDK",
+  "preserve_paths": "ZooZSDK",
   "license": {
     "type": "License",
     "text": "ZooZ License File"
@@ -20,6 +20,7 @@
     "QuartzCore",
     "ZooZSDK"
   ],
+    "resources" : ["Resources/*"],
   "libraries": [
     "z",
     "xml2"
