@@ -18,7 +18,8 @@
     "text": "ZooZ License File"
   },
   "frameworks": [
-    "QuartzCore"
+    "QuartzCore",
+    "Security"
   ],
   "resources" : "ZooZSDK.embeddedframework/ZooZSDK.framework/Versions/A/Resources*",
   "headers" : "ZooZSDK.embeddedframework/ZooZSDK.framework/Versions/A/Headers*",
