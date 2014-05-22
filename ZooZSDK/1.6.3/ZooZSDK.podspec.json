@@ -1,6 +1,6 @@
 {
   "name": "ZooZSDK",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "summary": "The ZooZ SDK for iOS",
   "homepage": "http://zooz.com/",
   "authors": "ZooZ",
@@ -20,7 +20,7 @@
     "QuartzCore",
     "ZooZSDK"
   ],
-  "resources" : "Resources/*",
+  "resources" : "ZooZSDK/Resources/*",
   "libraries": [
     "z",
     "xml2"
