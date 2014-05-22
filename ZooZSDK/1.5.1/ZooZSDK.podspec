@@ -15,18 +15,20 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :http => "http://devapi.letsmovedown.com/PodLibs/ZooZSDK.embeddedframework" }
+  s.source       = { :http => "http://devapi.letsmovedown.com/PodLibs/ZooZSDK.zip" }
 
-  s.source_files  = "ZooZSDK.framework/Versions/A/Headers/*"
+  s.source_files  = "Headers/*"
 
   # s.framework  =
   s.frameworks = "Quartz", "Security"
   s.libraries = "z", "xml2" 
   s.requires_arc = true
-
+  s.preserve_paths = "ZooZSDK"
   s.resource_bundles = { 
   	'ZooZResources' => ['Resources/*']
   }
-  s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ZooZSDK"' }
+  s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/ZooZSDK/"' }
+  framework_path = 'ZooZSDK'
+
 
 end
