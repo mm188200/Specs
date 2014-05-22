@@ -1,0 +1,33 @@
+{
+  "name": "ZooZSDK",
+  "version": "1.6.2",
+  "summary": "The ZooZ SDK for iOS",
+  "homepage": "http://zooz.com/",
+  "authors": "ZooZ",
+  "source": {
+    "http": "http://devapi.letsmovedown.com/PodLibs/ZooZSDK.zip"
+  },
+  "platforms": {
+    "ios": 6.0
+  },
+  "preserve_paths": "ZooZSDK",
+  "license": {
+    "type": "License",
+    "text": "ZooZ License File"
+  },
+  "source_files": "ZooZSDK/Headers/*.h",
+  "frameworks": [
+    "QuartzCore",
+    "ZooZSDK"
+  ],
+  "resources" : "Resources/*",
+  "libraries": [
+    "z",
+    "xml2"
+  ],
+  "compiler_flags": "-ObjC",
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "\"$(PODS_ROOT)/ZooZSDK/ZooZSDK\""
+  },
+  "requires_arc": false
+}
